@@ -1,0 +1,103 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Main container */
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: black;
+  background-size: cover;
+}
+
+/* Main title */
+.main-title {
+  font-size: 7rem;  /* Big title */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 3rem;  /* Smaller subtitle */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  z-index: 2;
+}
+
+/* Logo styling */
+.logo {
+  position: absolute;
+  top: 20px;     /* Adjust distance from top */
+  left: 7%;    /* Adjust distance from left */
+  width: 100px;  /* Adjust size */
+  height: auto;  /* Maintain aspect ratio */
+  z-index: 10;   /* Ensure it's above other content */
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the whole screen */
+  opacity: 0.4; /* 50% transparency */
+  position: absolute;
+  /* z-index: -1; Ensures the image stays in the background */
+}
+
+/*============= About Us ===============*/
+
+.about-us-title {
+  width: 15%;
+  height: 11%;
+  text-align: center;
+  padding: 0px;
+}
+
+.about-us {
+  height: 100vh;
+  display: flex;
+  position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: lightgray;
+  background-size: cover;
+  padding: 50px;
+}
+
+.about-us-text {
+  font-size: 1.3rem;  /* Smaller subtitle */
+  color: black;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.8;
+  z-index: 2;
+  padding: 50px;
+}
+
+
+.about-us-text-container {
+  height: 100vh;
+  width:80%;
+  display: flex;
+  position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: lightgray;
+  background-size: cover;
+}
